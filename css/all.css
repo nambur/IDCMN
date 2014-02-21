@@ -82,7 +82,7 @@ display: none;
 	float: left;
 	margin-right: 10px;
 }
-#address {
+.gen_text {
 	font-family: abel;
 	font-style: normal;
 	font-weight: 400;
