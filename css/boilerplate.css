@@ -38,7 +38,14 @@ html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10
 
 html, button, input, select, textarea { font-family: serif; color: #222; }
 
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+	font-family: abel;
+	font-style: normal;
+	font-weight: 400;
+}
 
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -55,9 +62,13 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
+a {
+	color: #909599;
+}
 a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a:hover {
+	color: #fb0029;
+}
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */

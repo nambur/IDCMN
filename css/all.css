@@ -75,6 +75,7 @@ display: none;
 	height: 83px;
 	float: right;
 	width: 50%;
+	text-align: right;
 }
 #logo_img {
 	width: 283px;
@@ -90,6 +91,40 @@ display: none;
 	display: inline-block;
 	vertical-align: middle;
 	padding-top: 5px;
+}
+.text_small {
+	font-size: small;
+}
+#signIn {
+	padding-right: 20px;
+}
+#cart {
+	padding-right: 20px;
+}
+#phoneNum {
+	padding-right: 20px;
+	vertical-align: middle;
+}
+#searchBox {
+	vertical-align: middle;
+}
+#searchButton {
+	vertical-align: middle;
+	height: 24px;
+	padding-left: 15px;
+}
+#account_links {
+	line-height: 35px;
+}
+#navBar {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+.nav_elem {
+	width: 12%;
+	display: inline-block;
+	text-align: center;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
