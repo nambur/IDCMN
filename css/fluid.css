@@ -65,6 +65,14 @@ img, object, embed, video {
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media (max-width: 768px) {
+/* custom styles for tablet and bellow */
+#left_headr {
+	height: 60px;
+}
+#right_headr {
+	height: 60px;
+}
+	
 .gridContainer {
 	width: 98.3695%;
 	padding-left: 0.8152%;

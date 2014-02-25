@@ -2,6 +2,7 @@
 
 #headr {
 	width: 100%;
+	min-width: 480px;
 }
 #top_headr {
 	margin-left: auto;
@@ -11,12 +12,13 @@
 	float: left;
 	height: 83px;
 	width: 50%;
-	min-width: 283px;
+	min-width: 205px;
 }
 #right_headr {
 	height: 83px;
 	float: right;
 	width: 50%;
+	min-width: 50px;
 	text-align: right;
 }
 #logo_img {
@@ -24,6 +26,11 @@
 	height: 83px;
 	float: left;
 	margin-right: 10px;
+}
+#logo_img_mobile {
+	width: 205px;
+	height: 60px;
+	float: left;
 }
 .gen_text {
 	font-family: abel;
@@ -80,4 +87,7 @@
 }
 #testpara {
 	text-align: justify;
+}
+#addressDiv {
+	float: left;
 }
