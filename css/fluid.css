@@ -90,12 +90,15 @@ img, object, embed, video {
 #navBar {
 	width: 0px;
 	float: right;
+	display: none;
 	-webkit-transition: width 250ms linear 0s;
 	-o-transition: width 250ms linear 0s;
 	transition: width 250ms linear 0s;
 }
 .nav_elem {
 	width: 100%;
+	padding-left: 0px;
+	padding-left: 0px;
 }
 }
 

@@ -3,6 +3,7 @@
 #headr {
 	width: 100%;
 	min-width: 480px;
+	background-color: #FFFFFF;
 }
 #top_headr {
 	margin-left: auto;
@@ -13,13 +14,15 @@
 	height: 83px;
 	width: 50%;
 	min-width: 205px;
+	padding-left: 10px;
 }
 #right_headr {
 	height: 83px;
 	float: right;
-	width: 50%;
+	width: 45%;
 	min-width: 50px;
 	text-align: right;
+	padding-right: 10px;
 }
 #logo_img {
 	width: 283px;
@@ -67,10 +70,13 @@
 }
 #navBar {
 	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFFFFF;
 }
 #navBar.show {
-	display: inline;
 	width: 200px;
+	height: auto;
 }
 .nav_elem {
 	width: 12%;

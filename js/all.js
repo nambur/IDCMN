@@ -2,16 +2,25 @@
 $(document).ready(function(e) {
 	// navBar click handler for tablet and mobile view
     $('#mobileNav').on('click', function() {
-		var show = $('.nav_elem').hasClass('hide_tablet');
+		var show = $('#navBar').hasClass('hide_tablet');
 		
 		if (show)
-			$('.nav_elem').toggleClass('hide_tablet');
+		{
+			//$('.nav_elem').toggleClass('hide_tablet');
+			$('#navBar').load( function() {
+				$(this).toggleClass('hide_tablet');
+			}).toggleClass('show');
+		}
+		else
+			$('#navBar').toggleClass('show');
 			
-		$('#navBar').toggleClass('show');
+		
 			
 		$('#navBar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
   			if (!show)
-				$('.nav_elem').toggleClass('hide_tablet');
+				$(this).toggleClass('hide_tablet');
+			
+				//$('.nav_elem').toggleClass('hide_tablet');
 		});
 	});
 	
