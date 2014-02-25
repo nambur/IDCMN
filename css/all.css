@@ -68,11 +68,19 @@
 #navBar {
 	width: 100%;
 }
+#navBar.show {
+	display: inline;
+	width: 200px;
+}
 .nav_elem {
 	width: 12%;
 	display: inline-block;
 	text-align: center;
-}.text_center {
+}
+.nav_elem.show {
+	width: 100%;
+}
+.text_center {
 	text-align: center;
 }
 .text_left {
